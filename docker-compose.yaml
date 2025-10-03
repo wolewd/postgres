@@ -22,4 +22,4 @@ volumes:
 
 networks:
   application_network:
-    driver: bridge
+    external: true
